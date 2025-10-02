@@ -20,16 +20,16 @@ tombolUbah.addEventListener('click', function(){
     // //judulHalaman.textContent = 'Caranya ada di dukun merah';
 });
 
-tombolBg.addEventListener('click', function () {
+tombolBg.addEventListener('click', function (){
     if (modeGelap === false) {
         bgHalaman.style.backgroundColor = '#333';
         bgHalaman.style.color = '#fff';
-        tombolUbah.textContent = 'Ubah ke Mode Terang';
+        tombolBg.textContent = 'Ubah ke Mode Terang';
         modeGelap = true;
     } else{
         bgHalaman.style.backgroundColor = 'white';
         bgHalaman.style.color = 'black';
-        tombolUbah.textContent = 'Ubah ke Mode Gelap';
+        tombolBg.textContent = 'Ubah ke Mode Gelap';
         modeGelap = false;
     }
 });
